@@ -436,7 +436,7 @@ const Home = () => {
               <motion.div variants={fadeInUp}>
                 <label className="block text-xs uppercase tracking-widest text-[#666] mb-2 font-mono">Message</label>
                 <textarea
-                  rows="6"
+                  rows={6}
                   className="w-full border-2 border-[#E0E0E0] px-4 py-3 focus:border-[#0066FF] focus:outline-none transition-colors resize-none"
                   placeholder="Tell me about your project..."
                 />
